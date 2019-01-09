@@ -5,12 +5,12 @@ eureka:
 ---
 spring:
   profiles: polite
-activities: Good day , Perfect moment
+decisions: Good day , Perfect moment
 server:
   port: 8000
 ---
 spring:
   profiles: rough
-activities: Last time, The time
+decisions: Last time, The time
 server:
   port: 8001
