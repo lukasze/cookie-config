@@ -1,3 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: hhtp://config-server
 my-eureka-cluster:
   port:
     peer1: 8761
