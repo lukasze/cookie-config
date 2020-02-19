@@ -5,7 +5,7 @@ eureka:
 spring:
   cloud:
     config:
-      uri: hhtp://config-server
+      uri: http://config-server
 ---
 spring:
   profiles: polite
