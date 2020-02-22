@@ -6,3 +6,6 @@ spring:
   cloud:
     config:
       uri: http://config-server
+feign:
+  hystrix:
+    enabled: on
