@@ -2,15 +2,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka-peer1:8761/eureka,http://eureka-peer2:8762/eureka
----
-spring:
-  profiles: lazy
-activities: to grab a bear,to eat a cookie,to take a nap
+activities:
+  lazy: to grab a beer,to eat a cookie,to take a nap
+  crazy: to grab a bear,to go climbing, tu run a supermarathon
 server:
   port: 8010
----
-spring:
-  profiles: crazy
-activities: to run a marathon, to go hiking
-server:
-  port: 8011
